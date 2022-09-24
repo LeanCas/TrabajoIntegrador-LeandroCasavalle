@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #323b41 ;
+    color:  #fcfefa ;
+}
+
+.contenedor-header {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+figure {
+    width: 130px;
+}
+
+figure img {
+    width: 100%;
+}
+
+header nav {
+    margin-right: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin: 0 20px;
+    text-align: center;
+    color: #fcfefa  ;
+}
+
+.comprar {
+    color: #299c43;
+}
+
+nav ul li a:hover {
+    color: #93989e;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    flex-direction: column;
+    height: 70vh;
+    color: white;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../img/ba1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.texto {
+    margin-left: 60%;
+    margin-right: 100px;
+    font-size: 120%;
+}  
+
+p , h3 {
+    text-align: center;
+    top: 0;
+}
+
+.conoce {
+    margin-top: 10px;
+    color: #323b41;
+}
+
+.btn{
+    width: 200px;
+}
+
+.btn-primary{
+    background-color: #299c43;
+    border: none;
+} 
+
+.btn-primary:hover {
+    background-color: #93989e;
+}
+
+.btn-outline-secondary {
+    color: white;
+} 
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} 
+
+.card {
+    margin: 0 1em;
+}
+
+.noticia {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    margin-top: 2em;
+    background-color: #323b41;
+}
+
+.noticia div {
+    width: 50%;
+    color: white;
+    margin: 2.5em 2.5em;
+}
+
+.noticia figure {
+    width: 50%;
+    min-width: 520px;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.noticia figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.rasgos {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.javascript {
+    background-color:  #fec007;
+    padding: 0 0.4em;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-right: 10px;
+
+}
+
+.react {
+    background-color: #16a2b8;
+    color: white;
+    padding: 0 0.4em;
+    border-radius: 5px;
+    font-weight: bolder;
+
+}
+
+.negocios {
+    background-color: #6c747e;
+    color: white;
+    padding: 0 0.4em;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.startups {
+    background-color: #dc3546;
+    color: white;
+    padding: 0 0.4em;
+    border-radius: 5px;
+    font-weight: bolder;
+    
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    width: 40%;
+}
+
+form div {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 1em;
+}
+
+textarea {
+    width: 100%;
+}
+
+form p {
+    font-size: 80%;
+    color: #6c747e;
+    width: 100%;
+}
+
+.enviar {
+    width: 100%;
+    color: white;
+    background-color: #96c93e;
+    border-radius: 5px;
+    border: none;
+    padding: 0.3em;
+}
+
+footer {
+    background-color: #1d4358;
+    margin-top: 1em;
+    bottom: 0;
+    height: 8vh;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    margin: 0 20px;
+    text-align: center;
+    color: #fcfefa  ;
+}
+
+footer nav ul {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer nav ul li {
+    margin-top: 30px;
+}
