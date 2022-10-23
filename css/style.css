@@ -11,6 +11,7 @@ header {
     align-items: center;
     background-color:  #323b41 ;
     color:  #fcfefa ;
+    padding: 1em;
 }
 
 .contenedor-header {
@@ -239,4 +240,87 @@ footer nav ul {
 
 footer nav ul li {
     margin-top: 30px;
+}
+
+/*Pagina de Compra de Tickets */
+
+.categoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    margin: 1.5em auto;
+}
+
+.categoria p {
+    color: gray;
+}
+
+h6,h4,h2 {
+    text-align: center;
+}
+
+.categoria div {
+    border: 2px ridge;
+    padding: 1em 4em;
+
+}
+
+.categoria .estudiante {
+    border-color: #0583F2;
+}
+
+.categoria .trainee {
+    border-color: #17A2B8;
+    margin: 0 5px;
+}
+
+.categoria .junior {
+    border-color: #f9cf81;
+}
+
+#compra-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#compra-form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#compra-form div input {
+    margin: 0 5px;
+}
+
+.separado {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.botones {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botones input {
+    width: 50%;
+    background-color: #95BF3B;
+    border-color: #95BF3B;
+}
+
+#monto {
+    background-color: #CCE5FF;
+    padding: 1em;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    text-align: start;
+    color: #004095;
+    border-radius: 5px;
 }
